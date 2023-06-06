@@ -1,0 +1,33 @@
+* {
+    line-height: 1.5;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+
+img {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: darkred;
+}
+
+.recipe-card {
+    width: 400px;
+    background-color: #921919;
+    text-align: center;
+
+}
+
+.recipe-content {
+    text-align: left;
+}
+
+/* -6:20 in the tutorial video on odin project. */
