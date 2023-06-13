@@ -23,7 +23,7 @@ h1 {
     width: 400px;
     background-color: #b89292;
     text-align: center;
-
+    color: black;
 }
 
 .recipe-content {
@@ -40,6 +40,10 @@ h1 {
 
 ul li h2 {
     font-size: 16px;
+}
+
+.container .recipe-card {
+    background-color: #7ccac6;
 }
 
 .recipe-card a {
@@ -69,4 +73,12 @@ ul li h2 {
           .subsection#preview {
             color: blue;
            }
+*/
+
+/* Specificity values
+//
+// Type selectors   | value: 1      | e.g. img
+// Class selectors  | value: 10     | e.g. .recipe-card
+// Id selectors     | value: 100    | e.g. #container
+// Inline styles    | value: 1000   | e.g. <h1 style=""></h1> 
 */
