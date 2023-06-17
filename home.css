@@ -1,0 +1,17 @@
+body {
+    background-color: darkgray;
+    text-align: center;
+}
+.Header {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    line-height: 1.5;
+}
+img {
+    width: 300px;
+}

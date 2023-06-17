@@ -82,3 +82,11 @@ ul li h2 {
 // Id selectors     | value: 100    | e.g. #container
 // Inline styles    | value: 1000   | e.g. <h1 style=""></h1> 
 */
+
+/* ========== BOX MODEL ========== //
+//
+// Margin      | e.g. margin: 10px 10px 10px 10px (top | right | bottom | left)  
+// Border      | e.g. border: 2px dotted green
+// Padding     | e.g. padding: 10px (shorthand)
+// Content     | 
+*/
