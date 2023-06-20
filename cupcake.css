@@ -1,5 +1,7 @@
 * {
     line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -9,6 +11,8 @@ body {
 
 img {
     width: 200px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 ul {
@@ -18,16 +22,26 @@ ul {
 h1 {
     color: darkred;
 }
+p {
+    margin-bottom: 20px;
+}
 
 .recipe-card {
-    width: 400px;
+    width: 800px;
     background-color: #b89292;
-    text-align: center;
     color: black;
+    margin: 20px auto;
 }
 
 .recipe-content {
-    text-align: left;
+    padding: 20px;
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+}
+.recipe-info {
+    display: inline-block;
+    width: 400px;
 }
 
 .recipe-card h2, .recipe-card a{
@@ -41,15 +55,27 @@ h1 {
 ul li h2 {
     font-size: 16px;
 }
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
 
 .container .recipe-card {
     background-color: #7ccac6;
 }
-
-.recipe-card a {
+ .recipe-card a {
     background-color: #ca857c;
     color: white;
     text-decoration: none;
+    padding: 10px 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+span.highlight {
+    background-color: lightpink;
+    color: darkred;
+    padding: 0 3px;
+    margin: 0 -3px;
 }
 
 /* to select an id, and use it as a selector, it will have a # at the front
